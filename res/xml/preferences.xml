@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+	<PreferenceCategory 
+		android:title="Connection "
+		android:key="first_category">
+		
+		<CheckBoxPreference 
+			android:key="use_wifi"
+			android:summary="@string/wifi_summary"
+			android:title="@string/wifi_title" 
+			android:defaultValue="true"
+		/>
+		
+			<CheckBoxPreference 
+			android:key="use_3G"
+			android:summary="@string/threeG_summary"
+			android:title="@string/threeG_title" 
+			android:defaultValue="false"
+		/>
+			
+	</PreferenceCategory>
+
+
+	
+</PreferenceScreen>
